@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="maven_demo.TestCase" time="0.003" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="maven_demo.TestCase" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -28,7 +28,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="D:\Eclipse\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7838581676562149046.tmp"/>
+    <property name="classworlds.conf" value="D:\Eclipse\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7432406075392216022.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_341\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.8.0_341/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_341/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_341/bin/../jre/lib/amd64;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\go\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Shaikh Hammad\AppData\Local\Microsoft\WindowsApps;C:\Users\Shaikh Hammad\AppData\Roaming\Python\Python310\Scripts;C:\Program Files\heroku\bin;D:\go\bin;C:\Program Files\Maven\bin;C:\Users\Shaikh Hammad\AppData\Roaming\npm;C:\windows\System32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_341\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,6 +62,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="maven_demo.TestCase" name="testAdd" time="0.003"/>
+  <testcase classname="maven_demo.TestCase" name="testAdd" time="0.004"/>
   <testcase classname="maven_demo.TestCase" name="testSub" time="0"/>
 </testsuite>
