@@ -14,7 +14,7 @@ public class TestCase {
 	@Test
 	public void testAdd() {
 		assertEquals(5, BasicTest.add(2, 3));
-		//assertEquals(2, BasicTest.add(2, 0));
+		assertEquals(2, BasicTest.add(2, 0));
 		
 		//assertEquals("Hammad","Hamma");
 		
@@ -25,6 +25,11 @@ public class TestCase {
 		
 		//assertFalse("Hi",3>2);
 		
+	}
+	
+	@Test
+	public void testSub() {
+		assertEquals(5,BasicTest.sub(10, 5));
 	}
 	
 }
